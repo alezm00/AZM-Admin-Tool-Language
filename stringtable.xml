@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="azm_admin_tool">
+    <Package name="main">
+        <Container name="functions">
+            <Key ID="STR_azm_heal">
+                <English>Heal</English>
+                <Italian>Cura</Italian>
+            </Key>
+            <Key ID="STR_azm_kill">
+                <English>Kill</English>
+                <Italian>Uccidi</Italian>
+            </Key>
+            <Key ID="STR_azm_tphimme">
+                <English>Teleport Him-Me</English>
+                <Italian>Teletrasporta da me</Italian>
+            </Key>
+            <Key ID="STR_azm_tpmehim">
+                <English>Teleport Me-Him</English>
+                <Italian>Teletrasporta da lui</Italian>
+            </Key>
+            <Key ID="STR_azm_godmode">
+                <English>God Mode</English>
+                <Italian>Immortalità</Italian>
+            </Key>
+            <Key ID="STR_azm_vehiclegod">
+                <English>Vehicle God</English>
+                <Italian>Immortalità veicolo</Italian>
+            </Key>
+            <Key ID="STR_azm_unlimitedammo">
+                <English>Unlimited Ammo</English>
+                <Italian>Munizioni infinite</Italian>
+            </Key>
+            <Key ID="STR_azm_mapmarkers">
+                <English>Map Markers</English>
+                <Italian>Indicatori in mappa</Italian>
+            </Key>
+            <Key ID="STR_azm_esp1">
+                <English>Esp-1</English>
+                <Italian>Esp-1</Italian>
+            </Key>
+            <Key ID="STR_azm_esp2">
+                <English>Esp-2</English>
+                <Italian>Esp-2</Italian>
+            </Key>
+            <Key ID="STR_azm_arsenal">
+                <English>Virtual Arsenal</English>
+                <Italian>Arsenale Virtuale</Italian>
+            </Key>
+            <Key ID="STR_azm_freecam">
+                <English>Free Cam</English>
+                <Italian>Telecamera libera</Italian>
+            </Key>
+            <Key ID="STR_azm_antifreeze">
+                <English>Anti Freeze</English>
+                <Italian>Anti Freeze</Italian>
+            </Key>
+            <Key ID="STR_azm_spectator">
+                <English>Spectator</English>
+                <Italian>Spettatore</Italian>
+            </Key>
+            <Key ID="STR_azm_bullettracer">
+                <English>Bullet tracer</English>
+                <Italian>Linee dei proiettili</Italian>
+            </Key>
+            <Key ID="STR_azm_bulletcamera">
+                <English>Bullet Cam</English>
+                <Italian>Bullet Cam</Italian>
+            </Key>
+            <Key ID="STR_azm_maptp">
+                <English>Map Teleport</English>
+                <Italian>Teletrasporto (Mappa)</Italian>
+            </Key>
+            <Key ID="STR_azm_nofatigue">
+                <English>No Fatigue</English>
+                <Italian>No fatica</Italian>
+            </Key>
+            <Key ID="STR_azm_recoil">
+                <English>No Recoil</English>
+                <Italian>No rinculo</Italian>
+            </Key>
+            <Key ID="STR_azm_marker_players">
+                <English>Players</English>
+                <Italian>Giocatori</Italian>
+            </Key>
+            <Key ID="STR_azm_marker_bot">
+                <English>Bot</English>
+                <Italian>Bot</Italian>
+            </Key>
+            <Key ID="STR_azm_marker_vehicles">
+                <English>Vehicles</English>
+                <Italian>Veicoli</Italian>
+            </Key>
+            <Key ID="STR_azm_marker_crates">
+                <English>Crates</English>
+                <Italian>Casse</Italian>
+            </Key>
+            <Key ID="STR_azm_marker_flags_exile">
+                <English>Exile Flags</English>
+                <Italian>Bandiere exile</Italian>
+            </Key>
+            <Key ID="STR_azm_message_heal">
+                <English>%1 Healed</English>
+                <Italian>%1 Curato</Italian>
+            </Key>
+            <Key ID="STR_azm_message_kill">
+                <English>%1 Killed</English>
+                <Italian>%1 Ucciso</Italian>
+            </Key>
+            <Key ID="STR_azm_message_tphimme">
+                <English>%1 Teleported to me</English>
+                <Italian>You got teleported to %1</Italian>
+            </Key>
+            <Key ID="STR_azm_message_godON">
+                <English>%1 Godmode ON</English>
+                <Italian>%1 Godmode ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_godOFF">
+                <English>%1 Godmode OFF</English>
+                <Italian>%1 Godmode OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_vehgodON">
+                <English>Vehicle godmode ON</English>
+                <Italian>Vehicle godmode ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_vehgodOFF">
+                <English>Vehicle godmode OFF</English>
+                <Italian>Vehicle godmode OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_unlimitedammoON">
+                <English>Infinite ammo ON</English>
+                <Italian>Infinite ammo ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_unlimitedammoOFF">
+                <English>Infinite ammo OFF</English>
+                <Italian>Infinite ammo OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_antifreezeON">
+                <English>Anti freeze ON</English>
+                <Italian>Anti freeze ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_antifreezeOFF">
+                <English>Anti freeze OFF</English>
+                <Italian>Anti freeze OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_spectateON">
+                <English>Spectator ON</English>
+                <Italian>Spettatore ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_spectateOFF">
+                <English>Spectator OFF</English>
+                <Italian>Spettatore OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_bulletcamON">
+                <English>Bullet cam ON</English>
+                <Italian>Bullet cam ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_bulletcamOFF">
+                <English>Bullet cam OFF</English>
+                <Italian>Bullet cam OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_bulletlinesON">
+                <English>Bullet Lines ON (%1 lines)</English>
+                <Italian>Traiettorie ON (%1 linee)</Italian>
+            </Key>
+            <Key ID="STR_azm_message_bulletlinesOFF">
+                <English>Bullet Lines OFF</English>
+                <Italian>Traiettorie OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_espON">
+                <English>ESP ON</English>
+                <Italian>ESP ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_espOFF">
+                <English>ESP OFF</English>
+                <Italian>ESP OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_markersON">
+                <English>Map markers turned ON</English>
+                <Italian>Map markers turned ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_markersOFF">
+                <English>Map markers turned OFF</English>
+                <Italian>Map markers turned OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_mapTP">
+                <English>Pick a point on the map to teleport</English>
+                <Italian>Seleziona un punto in mappa in cui teleportarti</Italian>
+            </Key>
+            <Key ID="STR_azm_message_nofatigueON">
+                <English>No fatigue ON</English>
+                <Italian>No fatigue ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_nofatigueOFF">
+                <English>No fatigue OFF</English>
+                <Italian>No fatigue OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_message_norecoilON">
+                <English>No recoil ON</English>
+                <Italian>No recoil ON</Italian>
+            </Key>
+            <Key ID="STR_azm_message_norecoilOFF">
+                <English>No recoil OFF</English>
+                <Italian>No recoil OFF</Italian>
+            </Key>
+            <Key ID="STR_azm_console_onlymultiplayer">
+                <English>This functions work only in multiplayer</English>
+                <Italian>Questa funzione si attiva solo in multiplayer</Italian>
+            </Key>
+            <Key ID="STR_azm_keys_goingtodelete">
+                <English>You are going to delete: %1(%2)</English>
+                <Italian>stai per cancellare un %1(%2)</Italian>
+            </Key>
+            <Key ID="STR_azm_keys_delete">
+                <English>%1(%2) Deleted</English>
+                <Italian>hai cancellato un %1(%2)</Italian>
+            </Key>
+            <Key ID="STR_azm_keys_destroy">
+                <English>%1(%2) Destroyed</English>
+                <Italian>hai distrutto un %1(%2)</Italian>
+            </Key>
+            <Key ID="STR_azm_keys_goingtodestroy">
+                <English>You are going to destroy: %1(%2)</English>
+                <Italian>stai per distruggere un %1(%2)</Italian>
+            </Key>
+            <Key ID="STR_azm_keys_moveintarget">
+                <English>Move in target</English>
+                <Italian>Entra nel veicolo che stai puntando</Italian>
+            </Key>
+            <Key ID="STR_azm_keys_healzone15m">
+                <English>Heal zone 15m</English>
+                <Italian>Heal zone 15m</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_console_save">
+                <English>SAVE</English>
+                <Italian>SALVA</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_console_load">
+                <English>LOAD</English>
+                <Italian>CARICA</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_console_delete">
+                <English>DELETE</English>
+                <Italian>ELIMINA</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_console_exec_local">
+                <English>LOCAL</English>
+                <Italian>LOCALE</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_console_exec_server">
+                <English>SERVER</English>
+                <Italian>SERVER</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_console_exec_global">
+                <English>GLOBAL</English>
+                <Italian>GLOBAL</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_main_console">
+                <English>CONSOLE</English>
+                <Italian>CONSOLE</Italian>
+            </Key>
+            <Key ID="STR_azm_gui_main_settings">
+                <English>SETTINGS</English>
+                <Italian>SETTINGS</Italian>
+            </Key>
+        </Container>
+    </Package>
+</Project>
