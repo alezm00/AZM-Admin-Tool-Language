@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="azm_admin_tool">
+    <Package name="main">
+        <Container name="functions">
+            <Key ID="STR_azm_heal">
+                <English>Heal</English>
+                <Italian>Cura</Italian>
+                <Portuguese>Curar</Portuguese>
+            </Key>
+            <Key ID="STR_azm_kill">
+                <English>Kill</English>
+                <Italian>Uccidi</Italian>
+                <Portuguese>Matar</Portuguese>
+            </Key>
+            <Key ID="STR_azm_tphimme">
+                <English>Teleport Him-Me</English>
+                <Italian>Teletrasporta da me</Italian>
+                <Portuguese>Teleportar Ele-Mim</Portuguese>
+            </Key>
+            <Key ID="STR_azm_tpmehim">
+                <English>Teleport Me-Him</English>
+                <Italian>Teletrasporta da lui</Italian>
+                <Portuguese>Teleportar Mim-Ele</Portuguese>
+            </Key>
+            <Key ID="STR_azm_godmode">
+                <English>God Mode</English>
+                <Italian>Immortalità</Italian>
+                <Portuguese>Imortal</Portuguese>
+            </Key>
+            <Key ID="STR_azm_vehiclegod">
+                <English>Vehicle God</English>
+                <Italian>Immortalità veicolo</Italian>
+                <Portuguese>Veículo imortal</Portuguese>
+            </Key>
+            <Key ID="STR_azm_unlimitedammo">
+                <English>Unlimited Ammo</English>
+                <Italian>Munizioni infinite</Italian>
+                <Portuguese>Munição Infinita</Portuguese>
+            </Key>
+            <Key ID="STR_azm_mapmarkers">
+                <English>Map Markers</English>
+                <Italian>Indicatori in mappa</Italian>
+                <Portuguese>Indicação no Mapa</Portuguese>
+            </Key>
+            <Key ID="STR_azm_esp1">
+                <English>Esp-1</English>
+                <Italian>Esp-1</Italian>
+                <Portuguese>Esp-1</Portuguese>
+            </Key>
+            <Key ID="STR_azm_esp2">
+                <English>Esp-2</English>
+                <Italian>Esp-2</Italian>
+                <Portuguese>Esp-2</Portuguese>
+            </Key>
+            <Key ID="STR_azm_arsenal">
+                <English>Virtual Arsenal</English>
+                <Italian>Arsenale Virtuale</Italian>
+                <Portuguese>Arsenal Virtual</Portuguese>
+            </Key>
+            <Key ID="STR_azm_freecam">
+                <English>Free Cam</English>
+                <Italian>Telecamera libera</Italian>
+                <Portuguese>Câmera Lívre</Portuguese>
+            </Key>
+            <Key ID="STR_azm_antifreeze">
+                <English>Anti Freeze</English>
+                <Italian>Anti Freeze</Italian>
+                <Portuguese>Anti Freeze</Portuguese>
+            </Key>
+            <Key ID="STR_azm_spectator">
+                <English>Spectator</English>
+                <Italian>Spettatore</Italian>
+                <Portuguese>Espectador</Portuguese>
+            </Key>
+            <Key ID="STR_azm_bullettracer">
+                <English>Bullet tracer</English>
+                <Italian>Linee dei proiettili</Italian>
+                <Portuguese>Trajetória do Projetil</Portuguese>
+            </Key>
+            <Key ID="STR_azm_bulletcamera">
+                <English>Bullet Cam</English>
+                <Italian>Bullet Cam</Italian>
+                <Portuguese>Câmera no Projetil</Portuguese>
+            </Key>
+            <Key ID="STR_azm_maptp">
+                <English>Map Teleport</English>
+                <Italian>Teletrasporto (Mappa)</Italian>
+                <Portuguese>Teleportar no Mapa</Portuguese>
+            </Key>
+            <Key ID="STR_azm_nofatigue">
+                <English>No Fatigue</English>
+                <Italian>No fatica</Italian>
+                <Portuguese>Incansável</Portuguese>
+            </Key>
+            <Key ID="STR_azm_recoil">
+                <English>No Recoil</English>
+                <Italian>No rinculo</Italian>
+                <Portuguese>Sem Recuo</Portuguese>
+            </Key>
+            <Key ID="STR_azm_marker_players">
+                <English>Players</English>
+                <Italian>Giocatori</Italian>
+                <Portuguese>Jogadores</Portuguese>
+            </Key>
+            <Key ID="STR_azm_marker_bot">
+                <English>Bot</English>
+                <Italian>Bot</Italian>
+                <Portuguese>Bot</Portuguese>
+            </Key>
+            <Key ID="STR_azm_marker_vehicles">
+                <English>Vehicles</English>
+                <Italian>Veicoli</Italian>
+                <Portuguese>Veículos</Portuguese>
+            </Key>
+            <Key ID="STR_azm_marker_crates">
+                <English>Crates</English>
+                <Italian>Casse</Italian>
+                <Portuguese>Caixas</Portuguese>
+            </Key>
+            <Key ID="STR_azm_marker_flags_exile">
+                <English>Exile Flags</English>
+                <Italian>Bandiere exile</Italian>
+                <Portuguese>Bandeira Exile</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_heal">
+                <English>%1 Healed</English>
+                <Italian>%1 Curato</Italian>
+                <Portuguese>%1Curado</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_kill">
+                <English>%1 Killed</English>
+                <Italian>%1 Ucciso</Italian>
+                <Portuguese>%1 Morto</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_tphimme">
+                <English>%1 Teleported to me</English>
+                <Italian>You got teleported to %1</Italian>
+                <Portuguese>%1 Teleportado para Mim</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_godON">
+                <English>%1 Godmode ON</English>
+                <Italian>%1 Godmode ON</Italian>
+                <Portuguese>%1 Godmode ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_godOFF">
+                <English>%1 Godmode OFF</English>
+                <Italian>%1 Godmode OFF</Italian>
+                <Portuguese>%1 Godmode OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_vehgodON">
+                <English>Vehicle godmode ON</English>
+                <Italian>Vehicle godmode ON</Italian>
+                <Portuguese>Veículo Indestrutível ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_vehgodOFF">
+                <English>Vehicle godmode OFF</English>
+                <Italian>Vehicle godmode OFF</Italian>
+                <Portuguese>Veículo Indestrutível OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_unlimitedammoON">
+                <English>Infinite ammo ON</English>
+                <Italian>Infinite ammo ON</Italian>
+                <Portuguese>Mulinão Infinita ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_unlimitedammoOFF">
+                <English>Infinite ammo OFF</English>
+                <Italian>Infinite ammo OFF</Italian>
+                <Portuguese>Mulinão Infinita OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_antifreezeON">
+                <English>Anti freeze ON</English>
+                <Italian>Anti freeze ON</Italian>
+                <Portuguese>Anti freeze ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_antifreezeOFF">
+                <English>Anti freeze OFF</English>
+                <Italian>Anti freeze OFF</Italian>
+                <Portuguese>Anti freeze OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_spectateON">
+                <English>Spectator ON</English>
+                <Italian>Spettatore ON</Italian>
+                <Portuguese>Espectador ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_spectateOFF">
+                <English>Spectator OFF</English>
+                <Italian>Spettatore OFF</Italian>
+                <Portuguese>Espectador OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_bulletcamON">
+                <English>Bullet cam ON</English>
+                <Italian>Bullet cam ON</Italian>
+                <Portuguese>Câmera no Projetil ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_bulletcamOFF">
+                <English>Bullet cam OFF</English>
+                <Italian>Bullet cam OFF</Italian>
+                <Portuguese>Câmera no Projetil OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_bulletlinesON">
+                <English>Bullet Lines ON (%1 lines)</English>
+                <Italian>Traiettorie ON (%1 linee)</Italian>
+                <Portuguese>Trajetória do Projetil ON (%1)</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_bulletlinesOFF">
+                <English>Bullet Lines OFF</English>
+                <Italian>Traiettorie OFF</Italian>
+                <Portuguese>Trajetória do Projetil OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_espON">
+                <English>ESP ON</English>
+                <Italian>ESP ON</Italian>
+                <Portuguese>ESP ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_espOFF">
+                <English>ESP OFF</English>
+                <Italian>ESP OFF</Italian>
+                <Portuguese>ESP OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_markersON">
+                <English>Map markers turned ON</English>
+                <Italian>Map markers turned ON</Italian>
+                <Portuguese>Indicação no Mapa ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_markersOFF">
+                <English>Map markers turned OFF</English>
+                <Italian>Map markers turned OFF</Italian>
+                <Portuguese>Indicação no Mapa OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_mapTP">
+                <English>Pick a point on the map to teleport</English>
+                <Italian>Seleziona un punto in mappa in cui teleportarti</Italian>
+                <Portuguese>Escolha um ponto no mapa para teleportar</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_nofatigueON">
+                <English>No fatigue ON</English>
+                <Italian>No fatigue ON</Italian>
+                <Portuguese>Incansável ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_nofatigueOFF">
+                <English>No fatigue OFF</English>
+                <Italian>No fatigue OFF</Italian>
+                <Portuguese>Incansável OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_norecoilON">
+                <English>No recoil ON</English>
+                <Italian>No recoil ON</Italian>
+                <Portuguese>Sem Recúo ON</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_norecoilOFF">
+                <English>No recoil OFF</English>
+                <Italian>No recoil OFF</Italian>
+                <Portuguese>Sem Recúo OFF</Portuguese>
+            </Key>
+            <Key ID="STR_azm_console_onlymultiplayer">
+                <English>This functions work only in multiplayer</English>
+                <Italian>Questa funzione si attiva solo in multiplayer</Italian>
+                <Portuguese>Esta função só funciona em Multiplayer</Portuguese>
+            </Key>
+            <Key ID="STR_azm_keys_goingtodelete">
+                <English>You are going to delete: %1(%2)</English>
+                <Italian>stai per cancellare un %1(%2)</Italian>
+                <Portuguese>Você está prestes a deletar: %1(%2)</Portuguese>
+            </Key>
+            <Key ID="STR_azm_keys_delete">
+                <English>%1(%2) Deleted</English>
+                <Italian>hai cancellato un %1(%2)</Italian>
+                <Portuguese>%1(%2) Deletado</Portuguese>
+            </Key>
+            <Key ID="STR_azm_keys_destroy">
+                <English>%1(%2) Destroyed</English>
+                <Italian>hai distrutto un %1(%2)</Italian>
+                <Portuguese>%1(%2) Destruído</Portuguese>
+            </Key>
+            <Key ID="STR_azm_keys_goingtodestroy">
+                <English>You are going to destroy: %1(%2)</English>
+                <Italian>stai per distruggere un %1(%2)</Italian>
+                <Portuguese>Você está prestes a destruir %1(%2)</Portuguese>
+            </Key>
+            <Key ID="STR_azm_keys_moveintarget">
+                <English>Move in target</English>
+                <Italian>Entra nel veicolo che stai puntando</Italian>
+                <Portuguese>Entrar no alvo apontado</Portuguese>
+            </Key>
+            <Key ID="STR_azm_keys_healzone15m">
+                <English>Heal zone 15m</English>
+                <Italian>Heal zone 15m</Italian>
+                <Portuguese>Zona de cura 15m</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_console_save">
+                <English>SAVE</English>
+                <Italian>SALVA</Italian>
+                <Portuguese>SALVAR</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_console_load">
+                <English>LOAD</English>
+                <Italian>CARICA</Italian>
+                <Portuguese>LER</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_console_delete">
+                <English>DELETE</English>
+                <Italian>ELIMINA</Italian>
+                <Portuguese>DELETAR</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_console_exec_local">
+                <English>LOCAL</English>
+                <Italian>LOCALE</Italian>
+                <Portuguese>LOCAL</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_console_exec_server">
+                <English>SERVER</English>
+                <Italian>SERVER</Italian>
+                <Portuguese>SERVIDOR</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_console_exec_global">
+                <English>GLOBAL</English>
+                <Italian>GLOBAL</Italian>
+                <Portuguese>GLOBAL</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_main_console">
+                <English>CONSOLE</English>
+                <Italian>CONSOLE</Italian>
+                <Portuguese>CONSOLE</Portuguese>
+            </Key>
+            <Key ID="STR_azm_gui_main_settings">
+                <English>SETTINGS</English>
+                <Italian>SETTINGS</Italian>
+                <Portuguese>CONFIGURAÇÕES</Portuguese>
+            </Key>
+            <Key ID="STR_azm_ejecthim">
+                <English>Eject him</English>
+                <Italian>Eietta</Italian>
+                <Portuguese>Ejetar</Portuguese>
+            </Key>
+            <Key ID="STR_azm_ejecthimcrew">
+                <English>Eject crew</English>
+                <Italian>Eietta equipaggio</Italian>
+                <Portuguese>Ejetar tripulação</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_ejecthim">
+                <English>%1 Ejected</English>
+                <Italian>Hai eiettato %1</Italian>
+                <Portuguese>%1 Ejetado</Portuguese>
+            </Key>
+            <Key ID="STR_azm_message_ejecthimcrew">
+                <English>%1 crew ejected</English>
+                <Italian>Hai eiettato l'equipaggio di %1</Italian>
+                <Portuguese>Tripulação %1 ejetada</Portuguese>
+            </Key>
+            <Key ID="STR_azm_attachto">
+                <English>Attach (object mover)</English>
+                <Italian>Attach (Sposta oggetti)</Italian>
+                <Portuguese>Pegar (movimentar objeto)</Portuguese>
+            </Key>
+        </Container>
+    </Package>
+</Project>
